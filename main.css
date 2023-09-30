@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #1e39a5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ############################ Navbar ######################## */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+.hamburger {
+    display: none;
+    /* z-index: 1000; */
+}
+
+#close {
+    visibility: hidden;
+    z-index: 999;
+}
+
+#close a {
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    max-width: 1480px;
+    margin: auto;
+    gap: 10px;
+    align-items: center;
+
+}
+
+#navbar> :nth-child(2) {
+    display: flex;
+}
+
+#navbar img {
+    width: 130px;
+}
+
+.nav-social {
+    display: flex;
+    background-color: var(--primary-color);
+    padding: 5px 20px;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.nav-social div {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.nav-social div:hover {
+    background-color: black;
+    transition: 0.1s ease-in;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 12px;
+
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-items ul li {
+    margin: 0px 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-items ul li a {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-items ul li a:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.nav-btn {
+    text-align: right;
+
+}
+
+.nav-btn a:hover {
+    background-color: black;
+}
+
+.nav-btn a {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 7px 13px;
+    font-size: 13px;
+
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: white;
+    /* border-radius: 50%; */
+}
+
+
+
+
+
+
+
