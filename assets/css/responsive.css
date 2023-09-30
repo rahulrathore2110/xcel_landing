@@ -1,90 +1,28 @@
-@media screen and (max-width: 950px) {
-    #best-service {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #our-service>div{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .testimonials>p {
-        font-size: 16px;
+@media screen and (max-width: 1050px) {
+    form {
+        width: 80%;
     }
 }
+
+
+
 
 
 @media screen and (max-width: 700px) {
-#hero-section{
-    align-items: stretch;
-}
+    form {
+        width: 100%;
+    }
 
-}
-
-
-@media screen and (max-width: 700px) {
-    #hero-section {
-        display: flex;
+    #ribben>div {
         flex-direction: column;
     }
 
-    #our-service>div {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .testimonials>p {
-        font-size: 14px;
-    }
-
-        footer>div{
-            flex-direction: column;
-            gap: 10px;
+        #ribben>div>div{
+            border: none;
         }
-
 }
 
-@media screen and (max-width: 500px) {
-
-    .form-cont input,
-    .form-cont select {
-        width: 99%;
-    }
-
-    .form-cont div {
-        flex-direction: column;
-        row-gap: 20px;
-    }
-
-    #our-service>div {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .ribben-tags {
-        display: flex;
-        flex-direction: column;
-        row-gap: 30px;
-    }
-
-    .testimonials>p {
-        font-size: 12px;
-    }
-
-    .testimonials {
-        row-gap: 0px;
-    }
-
-    .bestservice-text p {
-        font-size: 12px;
-    }
-
-    .client img {
-        width: 70px;
-    }
-
-    .otp-popup {
-        padding: 20px;
-    }
-}
+@media screen and (max-width: 500px) {}
 
 @media screen and (max-width: 800px) {
     .hamburger {
@@ -104,7 +42,7 @@
     .nav-menu {
         position: absolute;
         visibility: hidden;
-        background-color: blue;
+        background-color: var(--secondry-color);
         top: 0px;
         right: 0;
         height: 100vh;
