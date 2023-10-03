@@ -88,7 +88,7 @@
     }
 
     .nav-items ul li a:hover {
-        color: black;
+        color: var(--forth-color);
     }
 
     .nav-btn a {

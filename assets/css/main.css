@@ -128,7 +128,7 @@ header {
 }
 
 .nav-items ul li a:hover {
-    color: var(--third-color);
+    color: var(--forth-color);
     cursor: pointer;
 }
 
