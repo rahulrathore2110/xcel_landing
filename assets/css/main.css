@@ -341,7 +341,8 @@ form h1 {
 
 .card img {
     width: 70%;
-    margin: 10px 0px;
+    margin: 10px auto;
+
 }
 
 .card h1 {
