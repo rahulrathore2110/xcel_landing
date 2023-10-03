@@ -6,14 +6,14 @@
 
 
 @media screen and (max-width: 800px) {
-.service-cards{
-    grid-template-columns: repeat(2,1fr);
-}
+    .service-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-#services>h1{
-    font-size: 40px;
-    
-}
+    #services>h1 {
+        font-size: 40px;
+
+    }
 }
 
 
@@ -29,15 +29,20 @@
         flex-direction: column;
     }
 
-        #ribben>div>div{
-            border: none;
-        }
+    #ribben>div>div {
+        border: none;
+    }
+
+    footer>div {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 550px) {
     .service-cards {
-            grid-template-columns: 1fr;
-        }
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -84,6 +89,15 @@
 
     .nav-items ul li a:hover {
         color: black;
+    }
+
+    .nav-btn a {
+
+        background-color: var(--forth-color);
+    }
+
+    .nav-btn a :hover {
+        background-color: var(--third-color);
     }
 
 
