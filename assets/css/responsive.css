@@ -5,6 +5,18 @@
 }
 
 
+@media screen and (max-width: 800px) {
+.service-cards{
+    grid-template-columns: repeat(2,1fr);
+}
+
+#services>h1{
+    font-size: 40px;
+    
+}
+}
+
+
 
 
 
@@ -22,7 +34,11 @@
         }
 }
 
-@media screen and (max-width: 500px) {}
+@media screen and (max-width: 550px) {
+    .service-cards {
+            grid-template-columns: 1fr;
+        }
+}
 
 @media screen and (max-width: 800px) {
     .hamburger {

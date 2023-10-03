@@ -234,21 +234,22 @@ form h1 {
 /* company information */
 
 
-#comp-info{
+#comp-info {
     text-align: center;
     max-width: 750px;
     margin: auto;
     padding: 50px 0px;
 }
 
-#comp-info h1{
+#comp-info h1 {
     margin: 30px;
     color: var(--primary-color);
     font-size: 30px;
     font-weight: 700;
     padding: 0px 20px;
 }
-#comp-info p{
+
+#comp-info p {
     line-height: 24px;
     text-align: justify;
     letter-spacing: 0.5px;
@@ -260,30 +261,111 @@ form h1 {
 /* ribben section  */
 
 
-#ribben{
+#ribben {
     background-color: var(--secondry-color);
     color: white;
     display: flex;
     justify-content: center;
 }
 
-#ribben > div{
+#ribben>div {
     display: flex;
     padding: 50px;
 }
 
 #ribben>div>:last-child {
-border: none;
+    border: none;
 }
-#ribben>div>div{
+
+#ribben>div>div {
     padding: 20px;
     text-align: center;
     border-right: 1px solid white;
 }
 
-#ribben>div>div>p{
+#ribben>div>div>p {
     margin: 5px;
     font-size: 25px;
     font-weight: 700;
+
+}
+
+
+
+
+/* services section  */
+
+#services {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+    margin: auto;
+}
+
+#services>p {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+#services>h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--secondry-color);
+    padding: 0px 10px;
+}
+
+.service-cards {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 20px;
+    justify-content: center;
+    gap: 30px;
     
+
+
+}
+
+.service-cards .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 320px;
+    display: grid;
+    align-items: center;
+}
+
+.card img {
+    width: 70%;
+    margin: 10px 0px;
+}
+
+.card h1 {
+    font-weight: 100px;
+    color: var(--secondry-color);
+    margin: 10px 0px;
+
+}
+
+.card p {
+    color: var(--primary-color);
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 250px;
+    margin: auto;
+}
+
+.card button {
+    background-color: var(--secondry-color);
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px;
+    font-size: 17px;
 }
