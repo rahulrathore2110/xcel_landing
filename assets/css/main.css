@@ -7,8 +7,8 @@ html {
 }
 
 :root {
-    --primary-color: #295025;
-    --secondry-color: #0e5540;
+    --primary-color: #052938;
+    --secondry-color: #1c6aa9;
     --third-color: #960047;
     --forth-color: #f4a620;
     --tarnsition: 500ms ease-in-out;
@@ -23,6 +23,8 @@ html {
 
 a {
     text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 img {
@@ -325,7 +327,7 @@ form h1 {
     padding: 50px 20px;
     justify-content: center;
     gap: 30px;
-    
+
 
 
 }
@@ -335,8 +337,10 @@ form h1 {
     padding: 20px;
     border-radius: 20px;
     max-width: 320px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .card img {
@@ -369,57 +373,58 @@ form h1 {
     border-radius: 10px;
     margin: 20px 0px;
     font-size: 17px;
+    cursor: pointer;
 }
 
 
 /* testimonials section  */
 
-#testimonial{
+#testimonial {
     background-color: var(--secondry-color);
     padding: 50px 20px;
     text-align: center;
     color: white;
 }
 
-#testimonial>div{
+#testimonial>div {
     max-width: 700px;
     margin: auto;
 }
 
-#testimonial h1{
+#testimonial h1 {
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-#testimonial>div  div{
+#testimonial>div div {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-#testimonial >div>:nth-child(3){
+#testimonial>div>:nth-child(3) {
     font-size: 20px;
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
 
-#testimonial >div>:nth-child(4){
+#testimonial>div>:nth-child(4) {
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: 700;
 }
 
-#testimonial >div>:nth-child(5){
+#testimonial>div>:nth-child(5) {
     font-size: 20px;
 }
 
 
 /* clients section  */
-#clients{
+#clients {
     padding: 40px 0px;
 }
 
-#clients > h1{
+#clients>h1 {
     text-align: center;
     color: var(--primary-color);
     font-size: 50px;
@@ -427,12 +432,12 @@ form h1 {
     margin-bottom: 30px;
 }
 
-#clients img{
+#clients img {
     width: 100px;
 }
 
 
-#clients > div{
+#clients>div {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -440,7 +445,7 @@ form h1 {
     align-items: center;
     padding: 20px;
 }
-  
+
 
 
 
@@ -448,41 +453,42 @@ form h1 {
 /* footer section  */
 
 
-footer{
+footer {
     background-color: var(--secondry-color);
     color: white;
-    
+
 }
 
-footer a{
+footer a {
     color: white;
 }
 
-footer img{
+footer img {
     width: 150px;
 }
-footer>div{
+
+footer>div {
     display: flex;
     gap: 30px;
     padding: 40px 20px;
 }
 
-footer > div >div{
+footer>div>div {
     display: grid;
     row-gap: 10px;
     max-width: 300px;
 }
 
-footer iframe{
+footer iframe {
     filter: invert();
 }
 
-.addres>:nth-child(2){
+.addres>:nth-child(2) {
     font-size: 30px;
     font-weight: 700;
 }
 
-.copyright{
+.copyright {
     padding: 20px;
     border-top: 1px solid white;
 }
