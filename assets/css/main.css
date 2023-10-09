@@ -491,3 +491,24 @@ footer iframe {
     padding: 20px;
     border-top: 1px solid white;
 }
+
+.socials{
+    display: flex;
+    gap: 10px;
+        
+}
+
+.socials > div{
+    background-color: var(--primary-color);
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials>div:hover{
+    background-color: var(--forth-color);
+    transition: var(--tarnsition);
+}

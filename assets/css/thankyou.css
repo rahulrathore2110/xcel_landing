@@ -1,5 +1,5 @@
 img {
-    width: 100px;
+    width: 200px;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ body {
 .last .fa-solid {
     color: white;
     font-size: large;
-    background-color: #1e39a5;
+    background-color: var(--secondry-color);
     padding: 10px;
     border-radius: 50%;
     height: 40px;
@@ -63,19 +63,19 @@ body {
 
 .last .fa-brands:hover,
 .last .fa-solid:hover {
-    background-color: #f7941d;
+    background-color: var(--forth-color);
     transition: .2s ease-in;
 }
 
 .last> :last-child .fa-solid {
     display: grid;
     padding: 10px ;
-    background-color: #f7941d;
+    background-color: var(--forth-color);
 
 }
 
 .last> :last-child .fa-solid:hover{
-    background-color: #1e39a5;
+    background-color: var(--secondry-color);
 }
 
 .contact {
