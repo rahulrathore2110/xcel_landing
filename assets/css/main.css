@@ -126,7 +126,8 @@ header {
 .nav-items ul li a {
     color: var(--secondry-color);
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 0.75px;
 }
 
 .nav-items ul li a:hover {
